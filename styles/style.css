@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'Vazer';
+    src: url('../fonts/vazir-Black.eot');
+    src: url('../fonts/vazir.ttf') format('truetype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff');
+}
+
+body {
+    font-family: 'Vazer';
+    direction: rtl;
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    max-width: 1800px;
+    margin: 0% auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main>div {
+    width: calc(33% - 20px);
+    background-color: rgb(124, 124, 124);
+    margin: 0px 10px;
+    height: 300px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main>div svg {
+    font-size: 60px;
+    /* position: absolute; */
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+.main>div p {
+    font-size: larger;
+    padding: 10px;
+}
+
+.main>div span {
+    font-size: large;
+    font-weight: bolder;
+}
